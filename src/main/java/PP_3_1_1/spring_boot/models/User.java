@@ -1,6 +1,9 @@
 package PP_3_1_1.spring_boot.models;
 
 import lombok.Data;
+import lombok.NonNull;
+import lombok.Value;
+import org.springframework.validation.annotation.Validated;
 
 import javax.persistence.*;
 

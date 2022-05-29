@@ -12,7 +12,7 @@
     <label for="lastname">Lastname:</label>
     <input type="text" th:field="*{lastname}" id="lastname" placeholder="Lastname">
     <label for="Age">Age:</label>
-    <input type="number" th:field="*{age}" id="age" placeholder="Age">
+    <input type="number" min="0" th:field="*{age}" id="age" placeholder="Age">
     <input type="submit" value="Create user">
 
 </form>
